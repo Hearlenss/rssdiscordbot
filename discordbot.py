@@ -20,7 +20,7 @@ async def on_ready():
     print(f'Logged in as {client.user.name} - {client.user.id}')
 
     rss_url = ""  # Veriyi çekeceği rss adresi
-    channel_id = 1046167131357720576 # Verileri göndereceği kanal ıd lütfen "" vs. koymayın direk yapıştırın örn. 12910319410 
+    channel_id =  # Verileri göndereceği kanal ıd lütfen "" vs. koymayın direk yapıştırın örn. 12910319410 
 
     reader = RSSReader(rss_url)
     feed_data = reader.fetch_feed()
